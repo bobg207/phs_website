@@ -28,6 +28,7 @@ a:hover {
   background-color: #eaecf1;
   display: flex;
   justify-content: space-between;
+  flex-wrap: nowrap;
   margin-bottom: 2rem;
 }
 
