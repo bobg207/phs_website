@@ -24,7 +24,7 @@ a:hover {
 
 .top-wrapper {
   margin: 0;
-  padding: 1.5rem .75rem;
+  padding: 1.5rem 0;
   background-color: #eaecf1;
   display: flex;
   justify-content: space-around;
