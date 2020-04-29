@@ -27,7 +27,7 @@ a:hover {
   padding: 1.5rem 0;
   background-color: #eaecf1;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   flex-wrap: nowrap;
   margin-bottom: 2rem;
 }
