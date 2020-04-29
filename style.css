@@ -9,6 +9,10 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
+ul {
+  list-style-type: none;
+}
+
 a {
   text-decoration: none;
   color: #0576c2;
@@ -18,22 +22,17 @@ a:hover {
   background-color: #bac9f0;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-
 .top-wrapper {
   margin: 0;
-  width: 100%;
+  padding: 1.5rem 1rem;
   background-color: #eaecf1;
-}
-
-header {
-  padding: 1.5rem;
   display: flex;
   justify-content: space-between;
+}
+
+.nav-links {
+  margin: 0;
+  padding: 0;
 }
 
 .logo img {
@@ -61,6 +60,12 @@ nav li {
   flex-direction: column;
   align-items: center;
 }
+
+.hero {
+  display: flex;
+  flex-direction: column;
+}
+
 .hero img {
   margin: 40px 40px;
 }
