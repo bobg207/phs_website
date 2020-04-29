@@ -1,48 +1,135 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>Welcome</title>
     <meta charset="utf-8" />
-
-    <!--description that appears below site name in search results page-->
-    <meta name="description" content="Bob G's Sample Website" />
-
-    <!--allows search engine robots to read page more easily-->
+    <meta
+      name="description"
+      content="Portland High School Computer Science Offerings"
+    />
     <meta name="robots" content="index, follow" />
-
-    <!--make the page responsive to mobile devices, full width of device and 100%-->
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-
-    <link rel="stylesheet" href="styles.css" />
-
-    <!--change the icon on the tab-->
-    <link rel="icon" href="dog_animal_pet_bulldog_icon_124662.ico" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./images/bulldog_icon.ico" />
+    <title>PHS CompSci</title>
   </head>
-
-  <header>
-    <div class="logo-left">
-      <img src="phs.jpg" alt="phs" />
-    </div>
-    <div class="main-title">
-      <h1>Portland High School</h1>
-      <h2>Welcome to Mr Girsch's Website.</h2>
-    </div>
-    <div class="logo-right">
-      <img src="bulldog.jpeg" alt="bulldog" />
-    </div>
-  </header>
-
-  <nav>
-    <ul class="links">
-      <li><a class="link" href="#">Algebra 2</a></li>
-      <li><a class="link" href="intro_to_coding.html">Intro to Coding</a></li>
-      <li><a class="link" href="#">Data Analysis</a></li>
-      <li><a class="link" href="#">Previous/Future</a></li>
-    </ul>
-  </nav>
-
   <body>
-    
+    <div class="top-wrapper">
+      <header>
+        <div class="logo">
+          <a
+            href="https://phs.portlandschools.org/"
+            title="Portland High School"
+            target="_blank"
+            >PHS
+          </a>
+          <img src="./images/white_dog.png" alt="Bulldog Mascot" />
+        </div>
+        <nav>
+          <ul>
+            <li>
+              <a
+                href="https://www.portlandschools.org/"
+                target="_blank"
+                title="Portland Public Schools"
+                >PPS</a
+              >
+            </li>
+            <li>
+              <a href="#" title="Current CS Courses">Courses</a>
+            </li>
+            <li>
+              <a href="#" title="Contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+    </div>
+    <main>
+      <div class="bottom-wrapper">
+        <div class="hero">
+          <img src="/images/bulldog.jpeg" alt="Bulldog Mascot" />
+          <h1>Portland High School</h1>
+          <p>Mr Girsch's Computer Science Classes</p>
+        </div>
+        <section class="bottom-main">
+          <p>
+            Portland High School is excited to offer 4 distinct Computer Science
+            courses:
+          </p>
+          <ul>
+            <li><a href="#">Intro to Coding with Python</a></li>
+            <li><a href="#">Data Analysis</a></li>
+            <li><a href="#">Web Development</a></li>
+            <li><a href="#">Game Dev with Unity</a></li>
+          </ul>
+          <p>
+            Each course provides students experiences in design and development.
+          </p>
+        </section>
+      </div>
+      <section class="courses">
+        <article class="intro-coding">
+          <img src="/images/python.jpeg" alt="Python Logo" />
+          <a href="intro-to-coding.html" target="_blank">
+            <strong>Intro to coding with Python</strong>
+          </a>
+          <p>
+            Learn basic computer programming concepts and terminologies by
+            completing hands-on exercises.
+          </p>
+        </article>
+
+        <article class="data-analysis">
+          <img src="/images/pandas.jpg" alt="Pandas Logo" />
+          <a href="data-analysis.html" target="_blank">
+            <strong>Data Analysis</strong>
+          </a>
+          <p>
+            Analyze large datasets using Python's Pandas library and create
+            visualizations with Matplotlib.
+          </p>
+        </article>
+        <article class="web-dev">
+          <img src="/images/web_dev2.jpeg" alt="Web Dev Logos" />
+          <a href="web-dev.html" target="_blank">
+            <strong>Intro to coding with Python</strong>
+          </a>
+          <p>
+            Learn UI/UX principals to design attractive sites. Then create the
+            front-end using HTML5, CSS3, and JavaScript.
+          </p>
+        </article>
+        <article class="game-dev">
+          <img src="/images/unity3.jpeg" alt="Unity Logo" />
+          <a href="game-dev.html" target="_blank">
+            <strong>Game Development</strong>
+          </a>
+          <p>
+            Design, animate, and code, using C#, games and/or experiences in
+            both 2D and 3D.
+          </p>
+        </article>
+      </section>
+      <section class="contact">
+        <h2>For More Information</h2>
+        <form>
+          <input
+            type="text"
+            id="email"
+            name="email"
+            placeholder="Enter Your Email"
+            required
+          />
+          <input
+            type="text"
+            id="message"
+            name="message"
+            placeholder="Enter Your Message"
+            required
+          />
+          <input type="submit" value="Submit" />
+        </form>
+      </section>
+    </main>
   </body>
 </html>
-
