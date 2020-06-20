@@ -13,54 +13,54 @@
     <title>PHS CompSci</title>
   </head>
   <body>
-    <div class="top-wrapper">
-      <header>
-        <div class="logo">
-          <a
-            href="https://phs.portlandschools.org/"
-            title="Portland High School"
-            target="_blank"
-            >PHS
-          </a>
-          <img src="white_dog.png" alt="Bulldog Mascot" />
-        </div>
-        <nav>
-          <ul>
-            <li>
-              <a
-                href="https://www.portlandschools.org/"
-                target="_blank"
-                title="Portland Public Schools"
-                >PPS</a
-              >
-            </li>
-            <li>
-              <a href="#" title="Current CS Courses">Courses</a>
-            </li>
-            <li>
-              <a href="#" title="Contact">Contact</a>
-            </li>
-          </ul>
-        </nav>
-      </header>
-    </div>
+    <header class="top-wrapper">
+      <div class="logo">
+        <a
+          href="https://phs.portlandschools.org/"
+          title="Portland High School"
+          target="_blank"
+          >PHS
+        </a>
+        <img src="white_dog.png" alt="Bulldog Mascot" />
+      </div>
+      <nav>
+        <ul class="nav-links">
+          <li>
+            <a
+              href="https://www.portlandschools.org/"
+              target="_blank"
+              title="Portland Public Schools"
+              >PPS</a
+            >
+          </li>
+          <li>
+            <a href="#" title="Current CS Courses">Courses</a>
+          </li>
+          <li>
+            <a href="#" title="Contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
     <main>
       <div class="bottom-wrapper">
         <div class="hero">
           <img src="bulldog.jpeg" alt="Bulldog Mascot" />
           <h1>Portland High School</h1>
-          <p>Mr Girsch's Computer Science Classes</p>
+          <h3>Mr Girsch's Computer Science Classes</h3>
         </div>
         <section class="bottom-main">
           <p>
             Portland High School is excited to offer 4 distinct Computer Science
             courses:
           </p>
-          <ul>
-            <li><a href="#">Intro to Coding with Python</a></li>
-            <li><a href="#">Data Analysis</a></li>
-            <li><a href="#">Web Development</a></li>
-            <li><a href="#">Game Dev with Unity</a></li>
+          <ul class="course-links">
+            <li>
+              <a href="intro-to-coding.html">Intro to Coding with Python</a>
+            </li>
+            <li><a href="data-analysis.html">Data Analysis</a></li>
+            <li><a href="web-dev.html">Web Development</a></li>
+            <li><a href="game-dev.html">Game Development with Unity</a></li>
           </ul>
           <p>
             Each course provides students experiences in design and development.
@@ -69,10 +69,12 @@
       </div>
       <section class="courses">
         <article class="intro-coding">
-          <img src="python.jpeg" alt="Python Logo" />
-          <a href="intro-to-coding.html" target="_blank">
-            <strong>Intro to coding with Python</strong>
-          </a>
+          <div class="intro-header">
+            <img src="python.jpeg" alt="Python Logo" class="course-image" />
+            <a href="intro-to-coding.html" target="_blank">
+              <strong>Intro to Coding with Python</strong>
+            </a>
+          </div>
           <p>
             Learn basic computer programming concepts and terminologies by
             completing hands-on exercises.
@@ -80,7 +82,7 @@
         </article>
 
         <article class="data-analysis">
-          <img src="pandas_3.jpg" alt="Pandas Logo" />
+          <img src="pandas.jpg" alt="Pandas Logo" class="course-image" />
           <a href="data-analysis.html" target="_blank">
             <strong>Data Analysis</strong>
           </a>
@@ -90,9 +92,9 @@
           </p>
         </article>
         <article class="web-dev">
-          <img src="web_dev2.jpeg" alt="Web Dev Logos" />
+          <img src="web_dev2.jpeg" alt="Web Dev Logos" class="course-image" />
           <a href="web-dev.html" target="_blank">
-            <strong>Intro to coding with Python</strong>
+            <strong>Web Development</strong>
           </a>
           <p>
             Learn UI/UX principals to design attractive sites. Then create the
@@ -100,7 +102,7 @@
           </p>
         </article>
         <article class="game-dev">
-          <img src="unity3.jpeg" alt="Unity Logo" />
+          <img src="unity3.jpeg" alt="Unity Logo" class="course-image" />
           <a href="game-dev.html" target="_blank">
             <strong>Game Development</strong>
           </a>
@@ -114,22 +116,27 @@
         <h2>For More Information</h2>
         <form>
           <input
-            type="text"
+            type="email"
             id="email"
             name="email"
             placeholder="Enter Your Email"
             required
+            class="form-item"
           />
-          <input
-            type="text"
+          <label for="message">Enter your message:</label>
+          <textarea
             id="message"
             name="message"
-            placeholder="Enter Your Message"
+            rows="10"
+            cols="30"
             required
-          />
+            class="form-item"
+          >
+          </textarea>
           <input type="submit" value="Submit" />
         </form>
       </section>
+      <footer class="bottom-wrapper"></footer>
     </main>
   </body>
 </html>
