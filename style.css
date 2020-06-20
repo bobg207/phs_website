@@ -74,13 +74,12 @@ nav li {
 .hero img {
   justify-self: center;
   height: 200px;
-  width: 70%
-  margin-bottom: 1.5rem
+  width: 70%;
+  margin-bottom: 1.5rem;
 }
 
 .hero h1 {
   justify-self: center;
-  justify-items: center;
   margin-bottom: .5rem;
 }
 
