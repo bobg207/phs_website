@@ -110,11 +110,11 @@ article {
   /*border: solid 1px blue;*/
 }
 
-.intro-header {
+.course-header {
   display: flex;
 }
 
-.intro-header a{
+.course-header a{
   align-self: flex-end;
 }
 
