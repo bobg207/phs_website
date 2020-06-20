@@ -20,11 +20,13 @@ a {
 
 a:hover {
   background-color: #bac9f0;
+  color: white;
+  font-weight: bold;
 }
 
 .top-wrapper {
   margin: 0;
-  padding: 1.5rem 0;
+  padding: 1.5rem 1em;
   background-color: #eaecf1;
   display: flex;
   justify-content: space-between;
@@ -54,42 +56,89 @@ nav ul {
 nav li {
   margin: 0.2rem 0.3rem;
   font-size: 1rem;
+  line-height: 2em;
 }
 
 .bottom-wrapper {
-  border: 1px solid black;
-  display: flex;
-  flex-flow: column nowrap;
+  display: grid;
   justify-content: center;
   align-items: center;
+  border-bottom: solid 10px blue;
 }
 
 .hero {
-  border: 1px solid black;
-  display: flex;
-  flex-direction: column;
+  display: grid;
+  border-bottom: solid 10px blue;
 }
 
 .hero img {
-  border: 1px solid black;
+  justify-self: center;
   height: 200px;
   width: 70%
-  margin: 40px 40px;
   margin-bottom: 1.5rem
 }
 
 .hero h1 {
-  border: 1px solid black;
+  justify-self: center;
+  justify-items: center;
   margin-bottom: .5rem;
 }
 
-.hero p {
-  border: 1px solid black;
+.hero h3 {
   text-align: center;
-
+  margin-bottom: 2em;
 }
 
 .bottom-main {
-  margin: 40px 40px;
+  margin: 1em 1em;
   text-align: center;
+}
+
+.courses {
+  margin-top: 1.5em;
+  padding: 1.5em;
+  display: grid;
+  border-bottom: solid 10px blue;
+}
+
+article {
+  margin-bottom: 1.5em;
+  background: #eaecf1;
+}
+
+.course-image {
+  height: 130px;
+  width: 50%;
+  border: solid 1px blue;
+}
+
+.intro-header {
+  display: flex;
+}
+
+.intro-header a{
+  align-self: flex-end;
+}
+
+article a {
+  padding-left: .5em;
+}
+
+.contact {
+  text-justify: center;
+  margin: 1.5em 0;
+  padding-left: 1em;
+}
+
+form {
+  display: grid;
+  justify-content: flex-start;
+}
+
+.form-item {
+  margin: 0 0 .5em 0;
+}
+
+label {
+  font-weight: bolder;
 }
