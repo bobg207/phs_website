@@ -59,7 +59,6 @@ nav li {
 }
 
 .bottom-wrapper {
-  background: red;
   display: grid;
   justify-content: center;
   align-items: center;
@@ -108,7 +107,7 @@ article {
 .course-image {
   height: 130px;
   width: 50%;
-  border: solid 1px blue;
+  /*border: solid 1px blue;*/
 }
 
 .intro-header {
