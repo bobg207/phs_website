@@ -59,6 +59,7 @@ nav li {
 }
 
 .bottom-wrapper {
+  background: red;
   display: grid;
   justify-content: center;
   align-items: center;
