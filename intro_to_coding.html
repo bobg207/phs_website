@@ -1,151 +1,248 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Intro to Coding</title>
-</head>
-    <body>
-        <header>
-            <h1>Introduction to Coding with Python</h1>
-            <blockquote>"It (coding) also teaches you that being wrong doesn’t mean you don’t progress.
-                When I code, I’m wrong over and over until finally I’m right.”</em>
-                <br/><cite>--James Quigley (Student - MIT)</cite>
-            </blockquote>
-            
-            <blockquote>"You need the willingness to fail all the time.
-                You have to generate many ideas and then you have to work very hard only to discover
-                that they don’t work. And you keep doing that over and over until you find one
-                that does work.”<br/><cite>--John Backus (Inventor of the Fortran programming language)</cite>
-            </blockquote>
-        </header>
-
-        <!-- Side Menu for other links-->
-        <div id='sideMenu'>
-            <h2><a href='index.html'>Home</a></h2>
-            <h2>Current Courses</h2>
-                <p><a href="intro_to_coding.html">Intro to Coding</a></p>
-                <p><a href="web_dev.html">Honors Web Development</a></p>
-                <p>Algebra 2</p>
-                <p>Bulldog Block</p>
-
-            <!--Side Menu for Python Links-->
-            <h2>Python Links</h2>
-                <p><a href='https://www.python.org/' target='_blank'>Python 3.x</a></p>
-                <p><a href='https://docs.python.org/3/' target='_blank'>Python Documentation</a></p>
-                <p><a href='https://www.python.org/dev/peps/pep-0008/' target='_blank'>Pep-8 Style Guide</a></p>
-                <p><a href="https://anzeljg.github.io/rin2/book2/2405/docs/tkinter/index.html" target='_blank'>Tkinter Reference</a></p>
-                <p><a href="https://matplotlib.org/3.1.3/api/_as_gen/matplotlib.pyplot.html" target='_blank'>MatPlotLib Reference</a></p>
-
-            <!--Side Menu for Python class links-->
-            <h2>Python Quick References</h2>
-                <p><a href='https://docs.google.com/document/d/1af9LYyylPWSfVNIBZDVC4kzESsAOPYEaS5bfHtYl_7g/view?usp=sharing' target='_blank'>Numeric Operators</a></p>
-                <p><a href='https://docs.google.com/document/d/1u_84Pd5a4JmyPP9yhZgnyYwzn2NE8bMA7h_HZ1r9TpQ/view?usp=sharing' target='_blank'>Built-In Functions</a></p>
-                <p><a href='https://docs.python.org/2/library/random.html' target='_blank'>Random Module</a></p>
-                <p><a href='https://docs.google.com/document/d/1tc94BYae3CDr5KoIlLnRjvCV0OoT2dmO0-_YEsWwgeU/view?usp=sharing' target='_blank'>String Methods</a></p>
-                <p><a href='https://docs.google.com/document/d/1a-c4gpG8XzjQX1BQFnHy4dbuVZyxKCmGrCdmQDJnagQ/view?usp=sharing' target='_blank'>List Methods</a></p>
-                <p><a href='https://docs.google.com/document/d/16t8KNTcwHq5Z8U-Bz88YaV5pcAnnz6ps86_odY-YPvU/view?usp=sharing' target='_blank'>Dictionary Methods</a></p>
-                <p><a href='https://docs.google.com/document/d/183Cvd9ykcjyQns8AA7mrtWoY2Ck0rhPW3KFQ--YTo5E/view?usp=sharing' target='_blank'>File I/O Methods</a></p>
-                <p><a href='https://matplotlib.org/3.1.3/api/_as_gen/matplotlib.pyplot.html' target='_blank'>Matplotlib.pyplot Docs</a></p>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="description"
+      content="Portland High School Computer Science Offerings"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./intro-style.css" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="icon" href="./images/bulldog_icon.ico" />
+    <title>PHS CompSci</title>
+  </head>
+  <body>
+    <div class="page-one">
+      <header class="top-wrapper">
+        <div class="logo">
+          <a
+            href="https://phs.portlandschools.org/"
+            title="Portland High School"
+            target="_blank"
+            >PHS
+          </a>
+          <img src="white_dog.png" alt="Bulldog Mascot" />
         </div>
+        <nav>
+          <ul class="nav-links">
+            <li>
+              <a
+                href="https://www.portlandschools.org/"
+                target="_blank"
+                title="Portland Public Schools"
+                >PPS</a
+              >
+            </li>
+            <li>
+              <a href="#" title="Current CS Courses">Courses</a>
+            </li>
+            <li>
+              <a href="#" title="Contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+      <div class="intro">
+        <h1>Introduction to Coding in Python</h1>
+        <p>
+          <q>
+            You need the willingness to fail all the time. You have to generate
+            many ideas and then you have to work very hard only to discover that
+            they don’t work. And you keep doing that over and over until you
+            find one that does work.
+          </q>
+          <cite>
+            John Backus - Inventor of the Fortran programming language
+          </cite>
+        </p>
+      </div>
+      <div class="info">
+        <a
+          href="https://docs.google.com/document/d/1jHEcd81knCW5ypc06LzQYhiBPpTCiL8eM7DL24z5Ju4/edit?usp=sharing"
+          title="Course Information"
+          >Course Information</a
+        >
+      </div>
+    </div>
 
-        <!--Main Content-->
-        <h1>Quarter 1</h1>
-        <h2>Unit 1 - Intro to Computers and Python</h2>
-        <h2>Unit 2 - Data Types, Variables, Expressions</h2>
-        <p>Section 2.1 - <a href='https://colab.research.google.com/drive/1liGLY1r0s8jns6wedV0b2xIfDBAhJU7v' target='_blank'>Values and Data Types</a></p>
-        <a href='https://docs.google.com/document/d/1Eg8WpIURQVYIBUEgHDiJoIzC4gbRMmZCtkvXD0olva4/view?usp=sharing' target='_blank'>U2 - Practice Exercises #1</a>
-        <p>Section 2.2 - <a href='https://colab.research.google.com/drive/1aU-riAS4h9i94O4axEU3za7afOoffWiv' target='_blank'>Variables</a></p>
-        <p>Section 2.3 - <a href='https://colab.research.google.com/drive/1vbzfzyJ5-ZoykFsYCKmQHDRCVSbyLYFA' target='_blank'>Expressions</a></p>
-        <p>Section 2.4 - <a href='https://colab.research.google.com/drive/1A1Yvdq-54YcJ7pBdyClKarEWRwWGc77h' target='_blank'>Operations and Operands</a></p>
-        <a href='https://docs.google.com/document/d/1peCsFCK_iaMtFFsP15vX8WEZ3j7z7ADshAcIJHeslvQ/view?usp=sharing' target='_blank'>U2 - Practice Exercises #2</a>
-        <p>Section 2.5 - <a href='https://colab.research.google.com/drive/11WmXJ9N4ThfNfNHfZ3P8po7q8Ka8REBH' target='_blank'>User Input</a></p>
-        <p>Section 2.6 - <a href='https://colab.research.google.com/drive/1MSqi6Bipe6wY-pUv1IwIdTShvRMUqLj9' target='_blank'>Order of Operations</a></p>
-        <p>Section 2.7 - <a href='https://colab.research.google.com/drive/1obO_zEHMHSIo5f9qEbpe89feDqOGJYMO' target='_blank'>Python Modules</a></p>
-        <p><a href='https://docs.google.com/document/d/1OMeN7FAO7zF_tfl95fMr8UAQwY9GKhaBDcpdfAWfwQ4/view?usp=sharing' target='_blank'>U2 - Practice Exercises #3</a></p>
-        <p><a href='https://docs.google.com/document/d/1vXnl22aalI4WPpnMmCcw6TvhJASktcIr7lCGqu6BfHU/view?usp=sharing' target='_blank'>Unit 2 - Final Project</a></p>
-        <br>
-        <h2>Unit 3 - Functions and Fruitful Functions</h2>
-        <p>Section 3.0 - <a href='https://colab.research.google.com/drive/1HFij1DP4RDG7zVy9IS7ngSkYtGhqULc7' target='_blank'>f-Strings</a></p>
-        <p>Section 3.1 - <a href='https://colab.research.google.com/drive/1JO6Yteg7iyof3ndXBV5yIKmQqMNJ9Lo4' target='_blank'>Functions</a></p>
-        <p>Section 3.2 - <a href='https://colab.research.google.com/drive/1fWhjRjh3ef_d6J6Q_4he5dteMUipgdZQ' target='_blank'>Variables, Parameters, and Scope</a></p>
-        <a href='https://docs.google.com/document/d/1rese9M4PsXhBnJ8BhK1znnMObFl_OKoQV6sGCzpPWK0/view?usp=sharing' target='_blank'>U3 - Practice Exercises #1</a>
-        <p>Section 3.3 - <a href='https://colab.research.google.com/drive/115lZBPh5noIVC_Lhk7M0_mA9ELTWZ8p_' target='_blank'>Functions and Generalizations</a></p>
-        <p>Section 3.4 - <a href='https://colab.research.google.com/drive/1UHl5kNfQveLAk8P2h7kk39-8_0tDCJn9' target='_blank'>Using a Main Function</a></p>
-        <p><a href='https://docs.google.com/document/d/12sm7TclIqnf-zAOrp4AlnMsbEBbUtyDScg4XLhuuVaI/view?usp=sharing'?usp=sharing target='_blank'>Unit 3 - Final Project</a></p>
-        <br>
-        <h2>Unit 4 - Getting Started with Graphics, Pt 1</h2>
-        <p><a href='https://anzeljg.github.io/rin2/book2/2405/docs/tkinter/index.html' target='_blank'>TKinter Reference</a></p>
-        <p><a href='https://docs.google.com/document/d/1tz7eQuXiv2pXfqIdyQGcIGUPYIZ4kK65F86wH3P_mq8/view?usp=sharing' target='_blank'>Canvas Quick Start</a></p>
-        <p><a href='https://docs.google.com/document/d/1dptolh_DIB9GjP1CnNRhxJ2scDYsq_4jD-HImDOYs9E/view?usp=sharing' target='_blank'>U4 - Practice Exercises #1</a></p>
-        <p><a href='https://docs.google.com/document/d/1AItc4Id5e2hKIjbADUhjZ3Ql7TiaLBk13HlkfFQhmEs/view?usp=sharing' target='_blank'>U4 - Practice Exercises #2</a></p>
-        <p><a href='https://docs.google.com/document/d/1KRk5P6elC1PsJir4hg4riY-RKXiAuLYpy2-YQ5VNthU/view?usp=sharing' target='_blank'>U4 - Practice Exercises #3</a></p>
-        <br>
-        <h2>Unit 5 - Conditional Expressions</h2>
-        <p><a href='https://colab.research.google.com/drive/180uZzY8XyFEGtembtVZKoihpcuw4rIRg' target='_blank'>Conditionals</a></p>
-        <p><a href='https://docs.google.com/document/d/1NaVJ7pFHbKxzI9a9V94n0_ZVlxD71rIbRtbApcF4mPQ/view?usp=sharing' target='_blank'>U5 - Practice Exercises #1</a></p>
-        <br>
-        <h1>Quarter 2</h1>
-        <br>
-        <h2>Unit 6 - Iteration</h2>
-        <h3>for Loops</h3>
-        <p><a href='https://colab.research.google.com/drive/1P6Mg08cSn1uBcU_hNzzbPz38RSkBZNt_' target='_blank'>for Loops</a></p>
-        <p><a href='https://docs.google.com/document/d/18slJeyfquZjoYuiawfoc4psFTTJbBq2zhWt3SwHdpio/view?usp=sharing' target='_blank'>U6 - Practice Exercises #1</a></p>
-        <h3>while Loops</h3>
-        <p><a href='https://colab.research.google.com/drive/1JZE21nERJQxZvD1IHOvFPJzPI3d8yUoh' target='_blank'>while Loops</a></p>
-        <p><a href='https://docs.google.com/document/d/19Jc-jkrt2WSYep18oK1iv_HX4CT8rcRVucwNwz9xOTQ/view?usp=sharing' target='_blank'>U6 - Practice Exercises #1</a></p>
-        <br>
-        <h1>Quarter 3</h1>
-        <br>
-        <h3>Nested Loops</h3>
-        <p><a href='https://colab.research.google.com/drive/1C_8_sM9NOVcS8Bvr43EkcDOZbhYXpp6x' target='_blank'>Nested Loops</a></p>
-        <p><a href='https://docs.google.com/document/d/1QqI6r8L-i-ZrL3ZIi17mbhjcqrqHjE-GAHZn5Zuj19U/view?usp=sharing' target='_blank'>U6 - Practice Exercises #1</a></p>
-        <br>
-        <h2>Unit 7 - Tkinter Pt. 2: Intro to Graphical User Interfaces (GUI)</h2>
-        <p><a href='https://docs.google.com/document/d/1K8EQCNNR8GO93Sf22dtIMrBrWD2Z2_R0oJsGbebYX78/view?usp=sharing' target='_blank'>U7 - Practice Exercises #1</a></p>
-        <br>
-        <!--Update String link currently linked to old Google site-->
-        <h2>Unit 8 - String Objects</h2>
-        <p><a href='https://sites.google.com/a/portlandschools.org/mr-girsch/home/computer-science-1/strings' target='_blank'>Strings</a></p>
-        <p><a href='https://docs.google.com/document/d/1iMaG0UpsYYPxFjqLOLFmb_oP_XdruM6sqxnBjqpq9AQ/view?usp=sharing' target='_blank'>U8 - Practice Exercises #1</a></p>
-        <br>
-        <!--Update List link currently linked to old Google site-->
-        <h2>Unit 9 - List Objects</h2>
-        <p><a href='https://sites.google.com/a/portlandschools.org/mr-girsch/home/computer-science-1/lists' target='_blank'>Lists</a></p>
-        <p><a href='https://docs.google.com/document/d/1076xoPlcGfoieOpI3aRw9drjuM61nQxM1lnDsPxlzMY/view?usp=sharing' target='_blank'>U9 - Practice Exercises #1</a></p>
-        <br>
-        <h2>Unit 10 - List Comprehension</h2>
-        <p><a href='https://docs.google.com/document/d/18BPixCWoL2TDVojGNHqKErq1Y70DxFIbjXqaWbPw1vY/edit?usp=sharing' target='_blank'>List Comprehension</a></p>
-        <p><a href='https://docs.google.com/document/d/1Qlli9eyDvLAXsD8SjdzCnA7u2h-l1qvMMhE2oaUqK_4/view?usp=sharing' target='_blank'>U10 - Practice Exercises #1</a></p>
-        <br>
-        <!--Update Tuples link currently linked to old Google site-->
-        <h2>Unit 11 - Tuple Objects</h2>
-        <p><a href='https://sites.google.com/a/portlandschools.org/mr-girsch/home/computer-science-1/tuples' target='_blank'>Tuples</a></p>
-        <br>
-        <!--Update Dictionary link currently linked to old Google site-->
-        <h2>Unit 12 - Dictionary Objects</h2>
-        <p><a href='https://sites.google.com/a/portlandschools.org/mr-girsch/home/computer-science-1/dictionaries' target='_blank'>Dictionaries</a></p>
-        <p><a href='https://docs.google.com/document/d/12kR8q412qu5XzOu6VTu1Lr-j792NdErCl4SCOq7v0iY/view?usp=sharing' target='_blank'>U12 - Practice Exercises #1</a></p>
-        <br>
-        <h1>Quarter 4</h1>
-        <br>
-        <!--Update File I/O link currently linked to old Google site-->
-        <h2>Unit 13 - File Input/Output (I/O)</h2>
-        <p><a href='https://sites.google.com/a/portlandschools.org/mr-girsch/home/computer-science-1/files-and-exceptions' target='_blank'>Files I/O</a></p>
-        <p><a href='https://docs.google.com/document/d/1D956V0L3GzuCxLQwDXz4dGJiIuipYi3C_2XZAVPLMQ0/view?usp=sharing' target='_blank'>U13 - Practice Exercises #1</a></p>
-        <br><h3>Intro to Visualizations and MatPlotLib</h3>
-        <p><a href='https://drive.google.com/file/d/1CrnL1wrFE4vH00tFjqGV7dxQjI086f_N/view' target='_blank'>MatPlotLib</a></p>
-        <p><a href='https://docs.google.com/document/d/1jKPaxTbI8CdUnxTRvT5VDi0WwsEgICyDyzA0LkirOnU/view?usp=sharing' target='_blank'>MatPlotLib Exercises #1</a></p>
-        <p><a href='https://docs.google.com/document/d/1TbrEkuVVk2d4JKso89LQVPAY6uuJ1ekrgHWp8iNZy6g/view?usp=sharing' target='_blank'>MatPlotLib Exercises #2</a></p>
-        <br>
-        <!--Update Final Project link currently linked to old Google site-->
-        <h2>Unit 14 - Final Project</h2>
-        <p><a href='https://sites.google.com/a/portlandschools.org/mr-girsch/home/computer-science-1/final-project' target='_blank'>Project</a></p>
-        <p><a href='https://docs.google.com/document/d/1yEtYJJNzhqrFtAgVunI_simP4z0lpCOIpm9Zr4OmwKk/view?usp=sharing' target='_blank'>Capstone Reflection</a></p>
-        <br>
-        <!--Update OOP link currently linked to old Google site-->
-        <h2>Unit 15 - Object Oriented Programming (OOP)</h2>
-        <p><a href='https://sites.google.com/a/portlandschools.org/mr-girsch/home/computer-science-1/unit-15---classes-and-objects' target='_blank'>OOP Reference</a></p>
-        <p><a href='https://docs.google.com/document/d/1vjf-NTtNrPVvOeBD98FWL-DNzWxh0LYddwuH49OOTlw/view?usp=sharing' target='_blank'>U15 - Practice Exercises #1</a></p>
-        <br>
-    </body>
+    <aside class="intro-links"></aside>
+
+    <section class="semester-one">
+      <div class="quarter-one">
+        <h2>Quarter 1</h2>
+        <div class="unit-one">
+          <h3>Unit 1: Intro to Computers and Python</h3>
+        </div>
+        <div class="unit-two">
+          <h3>Unit 2: Data Types, Variables, Expressions</h3>
+          <ol class="sections">
+            <li class="exercises">
+              <a
+                href="https://colab.research.google.com/drive/1liGLY1r0s8jns6wedV0b2xIfDBAhJU7v?usp=sharing"
+                >Values and Data Types</a
+              >
+              <a
+                href="https://docs.google.com/document/d/1Eg8WpIURQVYIBUEgHDiJoIzC4gbRMmZCtkvXD0olva4/edit?usp=sharing"
+                >U2: Practice Exercises 1</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://colab.research.google.com/drive/1aU-riAS4h9i94O4axEU3za7afOoffWiv?usp=sharing"
+                >Variables</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://colab.research.google.com/drive/1vbzfzyJ5-ZoykFsYCKmQHDRCVSbyLYFA?usp=sharing"
+                >Expressions</a
+              >
+            </li>
+            <li class="exercises">
+              <a
+                href="https://colab.research.google.com/drive/1A1Yvdq-54YcJ7pBdyClKarEWRwWGc77h?usp=sharing"
+                >Operations and Operands</a
+              >
+              <a
+                href="https://docs.google.com/document/d/1peCsFCK_iaMtFFsP15vX8WEZ3j7z7ADshAcIJHeslvQ/edit?usp=sharing"
+                >U2: Practice Exercises 2</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://colab.research.google.com/drive/11WmXJ9N4ThfNfNHfZ3P8po7q8Ka8REBH?usp=sharing"
+                >User Input</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://colab.research.google.com/drive/1MSqi6Bipe6wY-pUv1IwIdTShvRMUqLj9?usp=sharing"
+                >Order of Operations</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://colab.research.google.com/drive/11WmXJ9N4ThfNfNHfZ3P8po7q8Ka8REBH?usp=sharing"
+                >User Input</a
+              >
+            </li>
+            <li class="exercises">
+              <a
+                href="https://colab.research.google.com/drive/1obO_zEHMHSIo5f9qEbpe89feDqOGJYMO?usp=sharing"
+                >Python Modules</a
+              >
+              <a
+                href="https://docs.google.com/document/d/1OMeN7FAO7zF_tfl95fMr8UAQwY9GKhaBDcpdfAWfwQ4/edit?usp=sharing"
+                >U2: Practice Exercises 3</a
+              >
+            </li>
+          </ol>
+          <a
+            class="final-project"
+            href="https://docs.google.com/document/d/1vXnl22aalI4WPpnMmCcw6TvhJASktcIr7lCGqu6BfHU/edit?usp=sharing"
+            >Unit 2 - Final Project</a
+          >
+        </div>
+        <div class="unit-three">
+          <h3>Unit 3: Functions and Fruitful Functions</h3>
+          <ol class="sections">
+            <li>
+              <a
+                href="https://colab.research.google.com/drive/1HFij1DP4RDG7zVy9IS7ngSkYtGhqULc7?usp=sharing"
+                >Formatted Strings</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://colab.research.google.com/drive/1JO6Yteg7iyof3ndXBV5yIKmQqMNJ9Lo4?usp=sharing"
+                >Functions</a
+              >
+            </li>
+            <li class="exercises">
+              <a
+                href="https://colab.research.google.com/drive/1fWhjRjh3ef_d6J6Q_4he5dteMUipgdZQ?usp=sharing"
+                >Variables, Parameters, and Scope</a
+              >
+              <a
+                href="https://docs.google.com/document/d/1rese9M4PsXhBnJ8BhK1znnMObFl_OKoQV6sGCzpPWK0/edit?usp=sharing"
+                >U3: Practice Exercises 1</a
+              >
+            </li>
+            <li>
+              <a
+                href="https://colab.research.google.com/drive/115lZBPh5noIVC_Lhk7M0_mA9ELTWZ8p_?usp=sharing"
+                >Functions and Generalization</a
+              >
+            </li>
+            <li class="exercises">
+              <a
+                href="https://colab.research.google.com/drive/1UHl5kNfQveLAk8P2h7kk39-8_0tDCJn9?usp=sharing"
+                >Using a <span>main( )</span> Function</a
+              >
+            </li>
+          </ol>
+          <a
+            class="final-project"
+            href="https://docs.google.com/document/d/12sm7TclIqnf-zAOrp4AlnMsbEBbUtyDScg4XLhuuVaI/edit?usp=sharing"
+            >Unit 3 - Final Project</a
+          >
+        </div>
+        <div class="unit-four">
+          <h3>Unit 4: Getting Started with Graphics</h3>
+          <div class="tkinter-intro">
+            <a href="#">Graphical User Interface (aka GUI) and Tkinter</a>
+          </div>
+          <div class="tkinter-intro">
+            <a
+              href="https://docs.google.com/document/d/1tz7eQuXiv2pXfqIdyQGcIGUPYIZ4kK65F86wH3P_mq8/edit?usp=sharing"
+            >
+              Canvas Quick Reference</a
+            >
+          </div>
+          <div class="gui-practice">
+            <a
+              href="https://docs.google.com/document/d/1dptolh_DIB9GjP1CnNRhxJ2scDYsq_4jD-HImDOYs9E/edit?usp=sharing"
+            >
+              GUI Practice 1</a
+            >
+          </div>
+          <div class="gui-practice">
+            <a
+              href="https://docs.google.com/document/d/1AItc4Id5e2hKIjbADUhjZ3Ql7TiaLBk13HlkfFQhmEs/edit?usp=sharing"
+            >
+              GUI Practice 2</a
+            >
+          </div>
+          <div class="gui-practice">
+            <a
+              href="https://docs.google.com/document/d/1KRk5P6elC1PsJir4hg4riY-RKXiAuLYpy2-YQ5VNthU/edit?usp=sharing"
+            >
+              GUI Practice 3 (extra credit)</a
+            >
+          </div>
+          <div class="unit-five">
+            <h3>Unit 5: Control Flow</h3>
+            <div class="control">
+              <a
+                href="https://colab.research.google.com/drive/180uZzY8XyFEGtembtVZKoihpcuw4rIRg?usp=sharing"
+              >
+                Conditional Statements</a
+              >
+            </div>
+            <div class="control">
+              <a
+                href="https://docs.google.com/document/d/1NaVJ7pFHbKxzI9a9V94n0_ZVlxD71rIbRtbApcF4mPQ/edit?usp=sharing"
+              >
+                Conditionals Practice</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="semester-two"></section>
+  </body>
 </html>
