@@ -23,20 +23,18 @@ p {
 }
 
 q {
-  padding: 1em 1em 1em 2em;
-  font-size: 1.25em;
+  padding: 1em 1em 1em 4em;
   text-align: start;
 }
 
 cite {
-  padding: 0 2em 1em 3em;
+  padding: 0 2em 1em 4em;
   text-align: start;
 }
 
 .info {
-  font-size: 2em;
   font-weight: bold;
-  padding-top: 10em;
+  padding-top: 1em;
   text-align: center;
 }
 
