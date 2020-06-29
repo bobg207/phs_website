@@ -1,0 +1,50 @@
+.page-one {
+  background-image: url(./comp_sci_bg.jpeg);
+  background-position: center;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  border-bottom: solid 10px white;
+  color: white;
+}
+
+.intro {
+  text-align: center;
+  justify-content: center;
+}
+
+h1 {
+  margin: 0 3em;
+}
+
+p {
+  padding: 0 2em;
+  display: grid;
+}
+
+q {
+  padding: 1em 1em 1em 2em;
+  font-size: 1.25em;
+  text-align: start;
+}
+
+cite {
+  padding: 0 2em 1em 3em;
+  text-align: start;
+}
+
+.info {
+  font-size: 2em;
+  font-weight: bold;
+  padding-top: 10em;
+  text-align: center;
+}
+
+.info a {
+  color: white;
+}
+
+.info a:hover {
+  background-color: transparent;
+  color: #bac9f0;
+}
