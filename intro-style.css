@@ -62,7 +62,7 @@ nav li {
 }
 
 .page-one {
-  background-image: url(./comp_sci_bg.jpeg);
+  background-image: url(./images/comp_sci_bg.jpeg);
   background-position: center;
   width: 100vw;
   height: 100vh;
@@ -110,7 +110,8 @@ cite {
 }
 
 .syllabus {
-  background-color: rgb(26, 24, 24);
+  background-image: url(/images/python-code.jpg);
+  background-position: center;
   color: white;
 }
 
@@ -125,4 +126,8 @@ cite {
 
 aside {
   background-color: grey;
+}
+
+.semester {
+  padding: 1em;
 }
