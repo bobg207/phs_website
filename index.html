@@ -9,115 +9,123 @@
     <meta name="robots" content="index, follow" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="./style.css" />
-    <link rel="icon" href="bulldog_icon.ico" />
+    <link rel="icon" href="images/bulldog_icon.ico" />
     <title>PHS CompSci</title>
   </head>
   <body>
-    <header class="top-wrapper">
-      <div class="logo">
-        <a
-          href="https://phs.portlandschools.org/"
-          title="Portland High School"
-          target="_blank"
-          >PHS
-        </a>
-        <img src="white_dog.png" alt="Bulldog Mascot" />
+    <header>
+      <div class="top-wrapper">
+        <div class="logo">
+          <a
+            href="https://phs.portlandschools.org/"
+            title="Portland High School"
+            target="_blank"
+            >PHS.CS
+          </a>
+          <img src="images/white_dog.png" alt="Bulldog Mascot" />
+        </div>
+        <nav>
+          <ul class="nav-links">
+            <li>
+              <a
+                href="https://www.portlandschools.org/"
+                target="_blank"
+                title="Portland Public Schools"
+                >PPS</a
+              >
+            </li>
+            <li>
+              <a href="#courses" title="Current CS Courses">Courses</a>
+            </li>
+            <li>
+              <a href="#" title="Contact">Contact</a>
+            </li>
+          </ul>
+        </nav>
       </div>
-      <nav>
-        <ul class="nav-links">
-          <li>
-            <a
-              href="https://www.portlandschools.org/"
-              target="_blank"
-              title="Portland Public Schools"
-              >PPS</a
-            >
-          </li>
-          <li>
-            <a href="#" title="Current CS Courses">Courses</a>
-          </li>
-          <li>
-            <a href="#" title="Contact">Contact</a>
-          </li>
-        </ul>
-      </nav>
+      
     </header>
     <main>
-      <div class="bottom-wrapper">
-        <div class="hero">
-          <img src="bulldog.jpeg" alt="Bulldog Mascot" />
+      <div class="hero-wrapper">
+        <section class="hero-main">
           <h1>Portland High School</h1>
-          <h3>Mr Girsch's Computer Science Classes</h3>
-        </div>
-        <section class="bottom-main">
+          <h3>Computer Science Classes</h3>
           <p>
-            Portland High School is excited to offer 4 distinct Computer Science
+            Portland High School offers 4 distinct Computer Science
             courses:
           </p>
-          <ul class="course-links">
-            <li>
-              <a href="./intro_to_coding.html">Intro to Coding with Python</a>
-            </li>
-            <li><a href="./data_analysis.html">Data Analysis</a></li>
-            <li><a href="./web_dev.html">Web Development</a></li>
-            <li><a href="./game_dev.html">Game Development with Unity</a></li>
-          </ul>
+          <div class="course-links">
+            <a href="./intro_to_coding.html">Introduction to Coding with Python</a>
+            <a href="./data_analysis.html">Data Analysis</a>
+            <a href="./web_dev.html">Web Development</a>
+            <a href="./game_dev.html">Game Development</a>
+          </div>
           <p>
             Each course provides students experiences in design and development.
           </p>
         </section>
+        <div class="hero">
+          <img src="images/bulldog.jpeg" alt="Bulldog Mascot" />
+        </div>
       </div>
-      <section class="courses">
-        <article class="intro-coding">
-          <div class="course-header">
-            <img src="python.jpeg" alt="Python Logo" class="course-image" />
-            <a href="intro_to_coding.html" target="_blank">
-              <strong>Intro to Coding with Python</strong>
-            </a>
-          </div>
-          <p>
-            Learn basic computer programming concepts and terminologies by
-            completing hands-on exercises.
-          </p>
-        </article>
+      <section class="courses-wrapper">
+        <div class="courses" id="courses">
 
-        <article class="data-analysis">
-          <div class="course-header">
-            <img src="pandas.jpg" alt="Pandas Logo" class="course-image" />
-            <a href="data_analysis.html" target="_blank">
-              <strong>Data Analysis</strong>
-            </a>
-          </div>
-          <p>
-            Analyze large datasets using Python's Pandas library and create
-            visualizations with Matplotlib.
-          </p>
-        </article>
-        <article class="web-dev">
-          <div class="course-header">
-            <img src="web_dev2.jpeg" alt="Web Dev Logos" class="course-image" />
-            <a href="web_dev.html" target="_blank">
-              <strong>Web Development</strong>
-            </a>
-          </div>
-          <p>
-            Learn UI/UX principles to design attractive sites. Then create the
-            front-end using HTML5, CSS3, and JavaScript.
-          </p>
-        </article>
-        <article class="game-dev">
-          <div class="course-header">
-            <img src="unity3.jpeg" alt="Unity Logo" class="course-image" />
-            <a href="game_dev.html" target="_blank">
-              <strong>Game Development</strong>
-            </a>
-          </div>
-          <p>
-            Design, animate, and code, using C#, games and/or experiences in
-            both 2D and 3D.
-          </p>
-        </article>
+          <article class="intro-coding">
+            <img src="images/python.jpeg" alt="Python Logo" class="course-image" />
+            <div class="course-header">
+              <a href="intro_to_coding.html" target="_blank">
+                <strong>Intro to Coding with Python</strong>
+              </a>
+              <p>
+                Learn basic computer programming concepts and terminologies by
+                completing hands-on exercises.
+              </p>
+            </div>
+          </article>
+  
+          <article class="data-analysis">
+            <img src="images/pandas.jpg" alt="Pandas Logo" class="course-image" />
+            <div class="course-header">
+              <a href="data_analysis.html" target="_blank">
+                <strong>Data Analysis</strong>
+              </a>
+              <p>
+                Analyze large datasets using Python's Pandas library and create
+                visualizations with Matplotlib.
+              </p>
+            </div>
+          </article>
+
+          <article class="web-dev">
+            <img src="images/web_dev2.jpeg" alt="Web Dev Logos" class="course-image" />
+            <div class="course-header">
+              <a href="web_dev.html" target="_blank">
+                <strong>Web Development</strong>
+              </a>
+              <p>
+                Learn UI/UX principles to design attractive sites. Then create the
+                front-end using HTML5, CSS3, and JavaScript.
+              </p>
+            </div>
+          </article>
+
+          <article class="game-dev">
+            <img src="images/pygame-img.jpeg" alt="Unity Logo" class="course-image" />
+            <div class="course-header">
+              <a href="game_dev.html" target="_blank">
+                <strong>Game Development</strong>
+              </a>
+              <p>Design, animate, and code, using Python's Pygame library, games and/or 
+                experiences in 2D.
+              </p>
+            </div>
+          </article>
+
+        </div>
+        
       </section>
+
       <section class="contact">
         <h2>For More Information</h2>
         <form>
@@ -125,19 +133,19 @@
             type="email"
             id="email"
             name="email"
-            placeholder="Enter Your Email"
+            placeholder="Email Address"
             required
             class="form-item"
           />
-          <label for="message">Enter your message:</label>
           <textarea
             id="message"
             name="message"
+            placeholder="Message"
             rows="10"
             cols="30"
             required
             class="form-item"
-          >
+          >Message
           </textarea>
           <input type="submit" value="Submit" />
         </form>
